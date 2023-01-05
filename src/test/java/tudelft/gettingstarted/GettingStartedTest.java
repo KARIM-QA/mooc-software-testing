@@ -9,6 +9,7 @@ public class GettingStartedTest {
     public void addFiveTo20() {
         int result = new GettingStarted().addFive(20);
         Assertions.assertEquals(25,result);
+        System.out.println("youpi");
     }
 
 //    UNCOMMENT THE CODE BELOW, AND FILL THE GAPS!
